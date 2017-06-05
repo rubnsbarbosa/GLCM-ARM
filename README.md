@@ -9,7 +9,7 @@ Neste algoritmo consiste em extrair quatro atributos da matriz, a saber Contrast
 ## Matriz = Imagem
 A imagem deverá ser quadrada por exemplo: 512x512 pixels, pois no método GLCM abrigatoriamente utiliza-se matriz quadrada. Segue um exemplo de uma imagem quadrada no formato *.PGM (Portable GrayMap)*  
 
-![images](https://cloud.githubusercontent.com/assets/17646546/26767592/db40bb6a-4977-11e7-9728-0828c26a291b.jpg)
+![cateq512](https://cloud.githubusercontent.com/assets/17646546/26767642/46463c50-4978-11e7-95b2-46178e305337.jpg)
 
 ## O Algoritmo deve
 > 1) ler o arquivo da imagem 
@@ -24,9 +24,7 @@ A imagem deverá ser quadrada por exemplo: 512x512 pixels, pois no método GLCM 
 Retorna a soma de elementos quadrados no GLCM.  
 
 ### Homogeneidade
-![homogeneidade](https://cloud.githubusercontent.com/assets/17646546/26767174/b280b170-4973-11e7-8de5-4cbd31e311b8.png)  
 Os valores dos pesos da homogeneidade são inversamente proporcionais aos pesos do contraste, com pesos diminuindo exponencialmente quanto mais distantes da diagonal.  homogeneidade resulta em grandes valores para níveis de cinza similares. Se os pesos diminuem distantes da diagonal, o resultado será maior para imagens com pouco contraste.
 
 ### Correlação
-![correlacao](https://cloud.githubusercontent.com/assets/17646546/26767184/d3ca7352-4973-11e7-8f4c-c3cf6f4a3875.png)
 O coeficiente de correlação utilizado em estatística é uma medida do grau de associação linear (negativa ou positiva) entre duas variáveis quantitativas. A correlação em textura mede a dependência linear de pixels em relação a sua vizinhança.
