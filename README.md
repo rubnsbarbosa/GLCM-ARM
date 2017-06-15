@@ -47,7 +47,7 @@ A imagem deverá ser quadrada por exemplo: 512x512 pixels, pois no método GLCM 
 > $ telnet 192.168.0.2  
 ## 5. Montar o pendrive no linux da placa arm  
 > $ mount /dev/sda1 /media  
-> // msg q aparece se deu certo. Sda pode ter outro núm. 
+> // msg q aparece se deu certo. Sda pode ter outro núm.  
 > // media é o local onde o pendrive foi montado  
 > Se não deu certo pode tentar  
 > $ fdisk –l // letra L  
