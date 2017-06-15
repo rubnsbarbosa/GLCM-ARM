@@ -4,7 +4,7 @@
 
 Neste algoritmo consiste em extrair quatro atributos da matriz, a saber Contraste, Correlação, Energia e Homogeneidade. Não foi usado bibliotecas de processamento de imagens como *OpenCV* ou equivalente.
 
-## Matriz = Imagem
+# Matriz -> Imagem
 A imagem deverá ser quadrada por exemplo: 512x512 pixels, pois no método GLCM abrigatoriamente utiliza-se matriz quadrada. O formato da imagem, para o algoritmo, foi o *.PGM (Portable GrayMap)*  
 
 ![einstein](https://user-images.githubusercontent.com/17646546/27186139-cf19b10e-51bd-11e7-878e-c14a9edb6ce5.GIF)
@@ -15,14 +15,14 @@ A imagem deverá ser quadrada por exemplo: 512x512 pixels, pois no método GLCM 
 > 3) calcular os elementos da matriz GLCM na direção horizontal à direita com deslocamento unitário considerando 16 níveis de cinza
 > 4) calcular 4 atributos da GLCM: contrast, energy, homogeneity and correlation.  
 
-### Contraste
+## Contraste
 ![contraste](https://user-images.githubusercontent.com/17646546/27185197-f833c848-51ba-11e7-90ee-7a83969a2b2c.png)
 
-### Energia
+## Energia
 ![energia](https://user-images.githubusercontent.com/17646546/27185241-21795f56-51bb-11e7-8fd4-05426089c1aa.png) 
 
-### Homogeneidade
+## Homogeneidade
 ![homogeneidade](https://user-images.githubusercontent.com/17646546/27185271-36ecb1bc-51bb-11e7-8423-5a93a7131ecf.png)
 
-### Correlação
+## Correlação
 ![correlacao](https://user-images.githubusercontent.com/17646546/27185290-438f735a-51bb-11e7-84ea-9983535c046b.png)
