@@ -36,20 +36,20 @@ A imagem deverá ser quadrada por exemplo: 512x512 pixels, pois no método GLCM 
 > Executar na placa ARM programa desenvolvido no PC
 
 ## 1. Localizar e verificar arquivos do toolchain arm
-> $ cd /usr/local/arm/4.1.1-920t/ /* toolchain */  
+> $ cd /usr/local/arm/4.1.1-920t/ // toolchain  
 ## 2. Compilar programa de teste (HelloWorld)
-> $ cd /home/semb/Documentos/ /* helloworld */  
+> $ cd /home/semb/Documentos/ // helloworld  
 > $ arm-linux-gcc helloworld.c -o helloworld_arm  
 ## 3. Copiar programa de teste no pendrive e levar para a placa ARM  
 ## 4. Conectar com placa ARM via ethernet  
-> $ ifconfig /* verificar o numero da eth */  
+> $ ifconfig // verificar o numero da eth  
 > $ sudo ifconfig eth0 192.168.0.1 netmask 255.255.255.0 up  
 > $ telnet 192.168.0.2  
 ## 5. Montar o pendrive no linux da placa arm  
-> $ mount /dev/sda1 /media 
-> /* msg q aparece se deu certo. Sda pode ter outro núm. */  
-> /* media é o local onde o pendrive foi montado */  
+> $ mount /dev/sda1 /media  
+> // msg q aparece se deu certo. Sda pode ter outro núm. 
+> // media é o local onde o pendrive foi montado  
 > Se não deu certo pode tentar  
-> $ fdisk –l /* letra L */  
+> $ fdisk –l // letra L  
 > $ mount /dev/sda1 /media  
 ## 6. Copiar e executar o programa
